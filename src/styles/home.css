@@ -1,0 +1,135 @@
+.home-container{
+    height: 90vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.top-lay{
+     background-color:#024357 ;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 2%;
+     padding-bottom: 2%;
+}
+
+.grid-container {
+    /* display: inline-flex;    
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    text-align: center; */
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  /* Styles for the grid items */
+ 
+
+  .touchable-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #024357;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-underline-offset: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+  
+.touchable-button a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+  /* Touch feedback effect */
+  .touchable-button:hover {
+    background-color: #00617f;
+    color: #ffffff;
+  }
+  
+  /* For touch devices */
+  .touchable-button:active {
+    background-color: #acc8c0;
+  }
+
+  .rounded-icon  {
+    border-radius: 50%; 
+    font-size: 50px;
+  }
+  .grid-item .css-1vzl2mj {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #36c1cb;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.auth-wrapper .auth-bg .r:nth-child(odd) {
+  animation: floating 7s infinite;
+  /* animation: floating 7s infinite; */
+}
+.auth-wrapper .auth-bg .r:first-child {
+  top: -100px;
+  right: -240px;
+  background: -webkit-linear-gradient(225deg,#1de9b6,#1dc4e9);
+  background: linear-gradient(-135deg,#1de9b6,#1dc4e9);
+}
+
+.auth-wrapper .auth-bg .r {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.auth-wrapper .auth-bg .r.s:nth-child(2) {
+  top: 150px;
+  right: -150px;
+  background: #04a9f5;
+}
+.auth-wrapper .auth-bg .r:nth-child(2n) {
+  -webkit-animation: floating 9s infinite;
+  animation: floating 9s infinite;
+}
+.auth-wrapper .auth-bg .r.s {
+  width: 20px;
+  height: 20px;
+}
+.auth-wrapper .auth-bg .r {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.auth-wrapper .auth-bg .r.s:nth-child(3) {
+  left: -150px;
+  bottom: 150px;
+  background: #1de9b6;
+}
+.auth-wrapper .auth-bg .r:nth-child(odd) {
+  animation: floating 7s infinite;
+  /* animation: floating 7s infinite; */
+}
+.auth-wrapper .auth-bg .r.s {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+
+
+
+
+
+ 

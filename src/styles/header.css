@@ -1,0 +1,90 @@
+.menu {
+    width: 100%;
+    background-color: #36CCB1;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.menu > div {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.menu .logo {
+    width: 13%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.menu .menuOption {
+    width: 67%;
+}
+
+.menu .menuOption ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu .menuOption ul li,  .menu .menuOption ul li a{
+        margin: 0 15px;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        display: inline-block;
+        color: #FFFFFF;
+}
+
+.customForm {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    width: 100%;
+    color: #000000;
+    text-align: left;
+    padding:5px
+}
+
+.customForm span {
+    display: inline-block;
+    vertical-align: top;
+}
+.customForm span input {
+    width: 95%;
+    height: 10px;
+    display: flex;
+    outline: none;
+    border: none;
+}
+
+.login button {
+    background-color: #00d5ff;
+    color: #fff;
+    border: none;
+    padding: 5px 3px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+
+
+.login-infoo {
+    margin: 0;
+    padding: 3px 6px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 5px;
+    background-color: #00d5ff;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 50px;
+    text-transform: uppercase;
+}

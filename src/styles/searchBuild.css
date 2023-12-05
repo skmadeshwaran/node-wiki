@@ -1,0 +1,294 @@
+.containers {
+    width: 80%;
+    border: 1px solid rgb(169, 239, 234);
+    background-color: #e7e9f5;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.top-menu {
+    background-color: #36B1CC;
+    border-radius: 10px;
+    margin-left: 5px;
+    width: auto;
+    padding: 10px 0px 10px 25px;
+}
+
+.top-menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.top-menu ul li {
+    list-style: none;
+    cursor: pointer;
+    background-color: #D9D9D9;
+    font-weight: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    width: 17%;
+    margin: 0 5px;
+}
+.top-menu ul li.selected {
+    background-color: #36CCB1;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.searchForm {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    color: #000000;
+    text-align: left;
+    padding:5px
+}
+
+.searchForm span {
+    display: inline-block;
+    vertical-align: top;
+}
+.searchForm span input {
+    width: 92%;
+    height: 10px;
+    outline: none;
+    border: none;
+}
+
+
+.maintitle {
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: inherit;
+    color: #1aa3c1;
+}
+
+select {
+    padding: 15px 305px 15px 15px;
+    display: flex;
+    border:1px solid #36C3CC;
+    align-items: center;
+    grid-gap: 10px;
+    border-radius: 5px;
+    grid-gap: 19px;
+    gap: 10px;
+    box-shadow: #70c3f6 0px 2px 8px;
+  
+}
+
+.subtitle input{
+    padding: 15px 0px 15px 15px;
+    display: flex;
+    align-items: center;
+    border:1px solid #36C3CC;
+    grid-gap: 10px;
+    border-radius: 5px;
+    grid-gap: 19px;
+    gap: 10px;
+    /* box-shadow: #70c3f6 0px 2px 8px; */
+}
+
+.subtitlee input{
+    padding: 15px 0px 15px 15px;
+    display: flex;
+    align-items: center;
+    border:1px solid #36C3CC;
+    grid-gap: 10px;
+    border-radius: 5px;
+    grid-gap: 19px;
+    gap: 10px;
+    /* box-shadow: #70c3f6 0px 2px 8px; */
+}
+
+
+.css-10mzr36-MuiGrid-root>.MuiGrid-item {
+    padding-left: 74px;
+    padding-right: 84px;
+}
+
+.subtitle label {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400px;
+    font-weight: 400;
+}
+
+
+
+.search {
+    background: linear-gradient(-135deg,#1de9b6,#1dc4e9);
+    border-radius: 5px;
+    border-color:rgb(198, 198, 198);
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin:0px 0px 10px 0px;
+}
+
+.search ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.search ul li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    width: 17%;
+    margin: 0 5px;
+}
+.view {
+    background-color: #36CCB1;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 1px;
+    position: absolute;
+    margin: 0px 1px 0px 71px;
+}
+
+.login-info{
+    margin: 0;
+    padding: 3px 6px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 5px;
+    background-color: #00d5ff;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 145px;
+    text-transform: uppercase;
+ 
+}
+.css-8atqhb {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.subtitle .css-1wuilmg-MuiAutocomplete-root {
+    width: 425px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: #70c3f6 0px 2px 8px;
+}
+
+
+
+
+
+
+
+
+.subtitleee {
+    background-color: #fff;
+    display: flex;
+    margin-left: 1px;
+    padding-left: 20px;
+    width: 405px;
+    height:45px;
+    border: 1px solid #36c2cb;
+    border-radius: 5px;
+    -ms-text-combine-horizontal:center;
+}
+
+/* .subtitlee .dropdown-content {
+    padding: 0px;
+    margin-left: -20px;
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}*/
+
+.subtitlee .dropdown-header {
+    margin-top: 6px;
+}
+
+.subtitlee .checkbox-dropdown {
+    background-color: #fff;
+    /*display: flex;*/
+    margin-left: 1px;
+    width: 420px;
+    /* height: 45px; */
+    border: 1px solid #36c2cb;
+    border-radius: 5px;
+    -ms-text-combine-horizontal: center;
+    text-align: left;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.subtitlee label {
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 30px;
+}
+.containers .exportt {
+    display: flex;
+    padding-bottom: 30px;
+    column-gap: 50px;
+}
+
+label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-MuiFormControlLabel-root {
+    display: flex;
+}
+.subinput input[type="text"] {
+    font-size: 17px;
+}
+.css-1pfgy4j {
+    width: 450px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.subtitlee input, .subtitle input {
+    padding: 15px 0 15px 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #36c3cc;
+    border-radius: 5px;
+    grid-gap: 19px;
+    grid-gap: -25px;
+    gap: -69px;
+    width: 439px;
+}
+
+.subtitle label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-1jaw3da {
+    display: flex;
+}
+.subinput input[type=text] {
+    font-size: 17px;
+    width: 430px;
+}
+.subtitle .MuiAutocomplete-hasPopupIcon.css-1pfgy4j .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.css-1pfgy4j .MuiOutlinedInput-root {
+    padding-right: -1px;
+    width: 430px;
+    /* height: 55px; */
+    background-color: #FFF;
+    border: solid 1px #36c3cc;
+    border-radius: 5px;
+}
+
+.subtitle label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-1jaw3da {
+    display: flex;
+}

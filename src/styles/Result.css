@@ -1,0 +1,34 @@
+
+.containers {
+    width: 88%;
+    border: 1px solid rgb(169, 239, 234);
+    background-color: #e7e9f5;
+    padding: 30px;
+    margin: 0 auto;
+}
+.modify.containers {
+    width: 88%;
+    border: 1px solid rgb(169, 239, 234);
+    background-color: #d4f5f5;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.containers.exportt {
+    display: flex;
+    padding-bottom: 30px;
+    column-gap: 50px;
+}
+.exportt .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    display: flex;
+    column-gap: 30px;
+    margin: 20px 20px 20px 10px;
+}
+.exportt .css-sghohy-MuiButtonBase-root-MuiButton-root{
+    display: flex;
+    margin: 10px;
+}
+.export.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    display: flex;
+    margin: 10px;
+}
