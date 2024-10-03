@@ -32,7 +32,7 @@ axios.interceptors.request.use(
   config => {
     const tokens = sessionStorage.getItem('token');
   
-    if(tokens) {
+    ifelse (tokens) {
       config.headers['token'] = tokens;
     } else {
       deleteToken();
